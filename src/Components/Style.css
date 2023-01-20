@@ -1,177 +1,680 @@
+.container{
+    align-items: center;
 
-*{
-    margin: 0;
-    box-sizing: border-box;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.bigbox{
-    width: 600px;
+    width: 50%;
     
-
+    border: 1px #0000;
+    height: 50%;
 }
 
-
-
-.cover{
-    border: 1px solid #000000;
-
-    position: absolute;
-    background-color: white;
-    width: 960px;
-   height: 1080px;
-    
-}
-p{
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 21px;
-    text-align: left;
-    margin-bottom: 15px;;
-    
-
-}
-
-
-.box{
-    margin-bottom: 15px;
-    width: 600px;
-    height: 70px;
-    background: #F5F0F0;
-}
-h2{
-    position: absolute;
-width: 276px;
-height: 42px;
-left: 342px;
-top: 213px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 36px;
-line-height: 42px;
-text-align: center;
-}
-
-#forgot{
-    margin-right: 600px;
-    margin-top: 20px;
-    width: fit-content;
-    color: #757A7D;
-    background-color: transparent;
-    cursor: pointer;
-    font-size: 18px;
-    Line-height:21.09px;
-   font-weight: 400px;
-    border-width: 0px;
-    
-
-}
 h1{
-    position: absolute;
-width: 242px;
-height: 75px;
-left: 359px;
-top: 69px;
-margin-bottom: 69px ;
+position: relative;
+
+    text-align: center;
+   
+    font-weight: 700;
+font-size: 64px;
+line-height: 75px;
+margin-right: 0px;
+
+}
+
+h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    margin-right: 0px;
+    color: #000000;
+    text-align: center;
+    
 }
 
 .form{
-    position: relative;
-    margin-top: 336px;
+    align-items: center;
+ /* width: 600px%; */
+    display: grid;
+
+}
+
+p{
+    
+    margin-left: 72px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+   
+    
+  
+    
+    color: #000000;
+    
+
+
+}
+p2{
+    margin-left: 70px;
+    margin-top: 10px;;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+
+margin-bottom: 10px;
+
+color: #000000;
+
+}
+
+.box{
+
+   
     width: 600px;
-    height: 761px;
+height: 70px;
+margin-top: 0px;
+background: #F5F0F0;
+border-width: 0px;
+margin: auto;
+}
+
+.box1{
+    border-width: 0px;
+
+    margin: auto;
+    width: 600px;
+height: 70px;
+
+background: #F5F0F0;
+}
+
+#forgot{
+    border-width: 0px;
+width: fit-content;
+
+background-color: transparent;
+    margin-left: 65px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #757A7D;
+
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 675px;
+    margin-right: 70px;
+}
+
+.check{
+    margin-top: 10px;
 }
 
 #login{
-
-   position: absolute;
-width: 600px;
+    width: 600px;
 height: 70px;
-left: 0px;
-margin-top: 38px;
-background-color: #757A7D;
+left: 180px;
+top: 611px;
+margin-left: 72px;
+margin-top: 20px;
 cursor: pointer;
+
+background: #8A8A8A;
 }
-
-#login p1 {
-    width: 90px;
-height: 42px;
-margin-top: 14px;
-margin-bottom: 14px;
-
-font-family: 'Roboto';
+ #login p5{
+    font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 36px;
 line-height: 42px;
 text-align: center;
 
+color: #000000;
+
+    text-align: center;
+ }
+#line{
+    width: 270px;
+height: 0px;
+margin-left: 75px ;
+margin-top: 35px;
+}
+
+#or{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+color: #8A8A8A;
+    margin-top: 0px;
+    position: relative;
+margin-left: 355px;
+margin-top: -30px;
+}
+#line2{
+    width: 270px;
+height: 0px;
+margin-left: 400px ;
+margin-top: -25px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    margin-top: 20px;
+  margin-left: 0
+  px;
+}
+
+.links .social button{
+
+    width: 162px;
+    height: 70px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+border-width: 0px;
+color: #000000;
+cursor: pointer;
+
+}
+
+.links .social button .dot{
+
+    width: 15px;
+    height: 15px;
+    
+    background: #C4C4C4;
+        border-radius: 50%;
+        display: inline-block;
+      margin-right: 10px;
+      margin-top: 10px;
+}
+
+.register p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+margin-top: 40px;
+display: flex;
+color: #8A8A8A;
+justify-content: center;
+margin-right: 40px;
+}
+
+.register button{
+   border-width: 0;
+   background-color: transparent;
+ color: #000000;
+ font-size: 18px;
+ cursor: pointer;
+}
+
+@media (max-width: 600px){
+.container{
+    width: 100%;
+}
+
+
+h1{
+
+        text-align: center;
+       
+        font-weight: 700;
+    font-size: 30px;
+    line-height: 75px;
+    
+    }
+
+    h2{
+        text-align: center;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 10px;
+    
+        
+        color: #000000;
+
+        
+    }
+    p{
+    
+        margin-left: 72px;
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 21px;
+        margin-top: 10px;
+       
+        
+      
+        
+        color: #000000;
+        
+    
+    
+    } 
+
+    .box{
+    position: relative;
+    
+        width: 350px;
+    height: 50px;
+    margin-top: 0px;
+    background: #F5F0F0;
+    border-width: 0px;
+    }
+    
+    
+    .form{
+        align-items: center;
+     width: 100%;
+        display: grid;
+    
+    }
+
+    .box1{
+        position: relative;
+        
+          margin-left: 70px;
+            width: 300px;
+        height: 50px;
+        margin-top: 0px;
+        background: #F5F0F0;
+        border-width: 0px;
+        }
+
+        p2{
+            margin-left: 72px;
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 21px;
+        margin-top: 10px;
+       
+        
+      
+        
+        color: #000000;
+        
+    
+        
+        }
+        .bottom{
+            display: flex;
+            justify-content: space-between;
+            width: 379px;
+            margin-right: 80px;
+        }
+
+        #forgot{
+            border-width: 0px;
+        width: fit-content;
+        
+        background-color: transparent;
+            margin-left: 65px;
+            margin-top: 10px;
+            cursor: pointer;
+            color: #757A7D;
+            font-size: 10px;
+        }
+        .check label{
+            font-size: 10px;
+
+
+        
+        }
+        
+        
+#login{
+    margin-left: 190px;
+    width: 80px;
+height: 40px;
+left: 0px;
+top: 1px;
+position: relative;
+margin-top: 10px;
+cursor: pointer;
+
+
+background: #8A8A8A;
+}
+ #login p5{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+text-align: center;
 
 color: #000000;
 
 
-/* Inside auto layout */
+ }
 
-flex: none;
-order: 0;
-flex-grow: 0;
-}
+ 
 
-#line{
- margin-top: 162px;
- width: 272px;   
- margin-right: 508px;
-}
 
-p2{
-    position: relative;
+.lines
+
+
+.lines #or{
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 24px;
 line-height: 28px;
 text-align: center;
-color: #8A8A8A;
-top: -15px;
+margin-right: 0px;
 
-}
-#line2{
-    position: absolute;
-    top: 489px;
-    width: 270px;   
-    left: 330px;
-   }
-.check{
+color:red;
+    margin-top: 35px;
 
-    position: relative;
-  bottom: 38px;
-  left: 233px;
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 21px;
-/* identical to box height */
-
-text-align: center;
-
-color: #757A7D;
-
-}
-.media{
-    bottom: 100px;
-}
-
-.social{
-
-    
-    display: inline-block;
-    padding: 74px 21px;
 }
 
 .links{
-
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
+    gap: 16px;
+    margin-top: 20px;
+  margin-left: -140px;
 }
+
+.links .social button{
+
+    width: 90px;
+    height: 30px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+text-align: center;
+border-width: 0px;
+color: #000000;
+cursor: pointer;
+
+
+}
+
+.links .social button .dot{
+
+    width: 15px;
+    height: 15px;
+    
+    background: #C4C4C4;
+        border-radius: 50%;
+        display: inline-block;
+      margin-right: 10px;
+      margin-top: 10px;
+}
+
+.register p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 80px;
+margin-left:150px;
+margin-top: 40px;
+display: flex;
+color: #8A8A8A;
+justify-content: center;
+
+}
+
+.register button{
+   border-width: 0;
+   background-color: transparent;
+ color: #000000;
+ font-size: 80px;
+ cursor: pointer;
+}
+
+
+
+}
+
+@media (max-width: 768px) {
+.container{
+    width: 100%;
+}
+
+
+
+    h1{
+        position: relative;
+       
+        margin-right: 15%;
+        
+       
+           
+            font-weight: 700;
+        font-size: 44px;
+        line-height: 40px;
+        
+        }
+    
+        h2{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 25px;
+
+            
+            margin-right: 75px;
+            margin-top: 10px;
+            
+            
+            color: #000000;
+          
+            
+        }
+        .form{
+         width: 100%;
+            
+        
+        }
+        
+p{
+    
+    margin-left: 72px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 6px;
+    color: #000000;
+    
+
+
+}
+.box{
+    position: relative;
+    
+      margin-left: 70px;
+        width: 61.5%;
+    height: 50px;
+    margin-top: -3px;
+    background: #F5F0F0;
+    border-width: 0px;
+    }
+
+    p2{
+        margin-left: 70px;
+        margin-top: 10px;;
+        font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+margin-top: 10px;    
+    margin-bottom: 10px;
+    
+    color: #000000;
+    
+    }
+    .box1{
+        position: relative;
+        
+          margin-left: 70px;
+            width: 61.5%;
+        height: 50px;
+        margin-top: 0px;
+        background: #F5F0F0;
+        border-width: 0px;
+        }
+        .bottom{
+            display: flex;
+            justify-content: space-between;
+            width: 73.5%;
+            margin-right: 80px;
+        }
+
+        #forgot{
+            border-width: 0px;
+        width: fit-content;
+        
+        background-color: transparent;
+            margin-left: 65px;
+            margin-top: 10px;
+            cursor: pointer;
+            color: #757A7D;
+            font-size: 15px;
+        }
+        .check label{
+            font-size: 15px;
+            color: #757A7D;
+
+        
+        }
+        
+        
+#login{
+    margin-left:37%;
+    width: 80px;
+height: 40px;
+left: 0px;
+top: 2px;
+position: relative;
+margin-top: 10px;
+cursor: pointer;
+align-items: center;
+
+
+background: #8A8A8A;
+}
+ #login p5{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+text-align: center;
+
+color: #000000;
+
+
+
+ }
+ .lines #line{
+    width: 150px;
+height: 74px;
+margin-left: 72px ;
+
+}
+.lines #line2{
+    width: 150px;
+
+height: 0px;
+margin-left: 235px ;
+margin-top:-96px;
+
+}
+
+
+
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 20px;
+  margin-left: -80px;
+}
+
+.links .social button{
+
+    width: 90px;
+    height: 30px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+text-align: center;
+border-width: 0px;
+color: #000000;
+cursor: pointer;
+
+
+}
+
+.links .social button .dot{
+
+    width: 15px;
+    height: 15px;
+    
+    background: #C4C4C4;
+        border-radius: 50%;
+        display: inline-block;
+      margin-right: 10px;
+      margin-top: 10px;
+}
+
+.register p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+margin-top: 40px;
+display: flex;
+color: #8A8A8A;
+justify-content: center;
+margin-right: 150px;
+}
+
+.register button{
+   border-width: 0;
+   background-color: transparent;
+ color: #000000;
+ font-size: 10px;
+ cursor: pointer;
+}
+.lines #or{
+    color: red;
+    margin-left: 220px;
+    font-size: 10px;
+    color: transparent;
+}
+    
+} 
+

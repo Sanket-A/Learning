@@ -1,0 +1,398 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+ 
+.box{
+position: absolute;
+width: 125px;
+height: 50px;
+border: 0px;
+margin-top: 50px;
+background-color: #E9E9E9;
+margin-left: 300px;
+      }
+
+      
+.box p{
+text-align: left;
+margin-top: 13px;
+margin-left: 5px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+
+color: #000000;
+              }
+
+.box .sbox{
+position: absolute;
+margin-left: 95px;
+top: 15px;
+width: 25px;
+height: 25px;
+background-color: #C4C4C4;
+
+
+ }
+.box1{
+position: absolute;
+margin-left: 1250px;   
+width: 75px;
+height: 50px; 
+border: 0px;
+margin-top: 50px;
+background-color: #E9E9E9;
+                               
+ }
+       
+ .box1 .sbox1{
+    /* position: absolute; */
+    /* margin-left: 15px; */
+    /* top: 8px; */
+    width: 45px;
+    height: 35px;
+    background-color: #C4C4C4;;
+          
+ 
+ }
+ .sbox1{
+    /* position: absolute; */
+    /* margin-left: 15px; */
+    /* top: 8px; */
+    width: 45px;
+    height: 35px;
+    background-color: #C4C4C4;
+
+ }
+ .box2{
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    border: 0px;
+    margin-top: 50px;
+    background-color: #E9E9E9;
+    margin-left: 1350px;
+          }
+
+.box2 button{
+    border-width: 0px;
+
+       margin-left: 15px;
+       margin-top: 12px;
+       font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+
+color: #000000;
+cursor: pointer;
+background-color: transparent;
+
+}
+          
+
+.keyword{
+    position: absolute; 
+    height: 230px;
+    width: 1170px;
+   
+    margin-left: 300px;
+    margin-top: 120px;
+    background: #C4C4C4;;
+}
+
+.keyword .top input{
+
+
+margin-left: -20px;
+width: 800px;
+height: 50px;
+font-family: 'Roboto';
+font-style: normal;
+color: #EEDEDE;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+border-width: 0px;
+background-color: #EEDEDE;;
+}
+.keyword .top button{
+    
+    width: 150px;
+    height: 50px;
+    border-width: 0px;
+    margin-left: 10px;
+    background: #3E4347;
+    font-size: 20px;
+    cursor: pointer;
+}
+.keyword .top{
+    position: absolute;
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-left: 40px;
+
+margin-top: 20px;
+
+}
+    
+.keyword .top .filter{
+
+
+width:120px;
+height: 50px;
+border-width: 0px;
+background: #EEDEDE;
+margin-left: 60px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+
+color: #000000;
+
+
+
+}
+
+.bottom{
+
+        display:inline-block;
+        width:1170px;
+    margin-top: 90px;
+    
+       
+        }
+
+
+    .category{
+        height: 122px;
+        display:block;
+        width:145.6px;
+        float:left;
+        background-color: #ffff;
+        margin-left:20px;
+        text-align:center;
+        cursor: pointer;
+        }
+
+        .category .sbox2{
+            width: 120px;
+            height: 60px;
+            background-color: #C4C4C4;
+            margin-top: 10px;
+            margin-left: 12px;
+        }
+
+.category p{
+    margin-top: 17px;
+    
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 35px;
+text-align: center;
+
+color: #000000;
+}
+
+
+/* ______________below________________________ */
+
+.row{
+    position: relative;
+    margin-top: 390px ;
+    height: 50px;
+    width: 1170px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    
+    
+    color: #000000;
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 305px;
+    margin-left: 300px;
+    
+}
+
+
+/* .row .sort{
+    
+    width:120px;
+    height: 90px;
+    border-width: 0px;
+    background: #EEDEDE;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    
+    justify-content: space-between;
+    gap: 20px;
+    
+    
+} */
+.below{
+    position: relative;
+    width: 1170px;
+    height: 320px;
+margin-top: 0px;
+    margin-left: 300px;
+    background-color: #ffff;
+    display: flex;
+    gap: 42px
+}
+
+.below .types{
+    height: 450px;
+    width: 360px;
+    background: #F1E6E6;;
+
+    
+}
+
+.below .types .box3{
+    height: 175px;
+    width: 260px;
+    background: #C4C4C4;
+}
+
+.title{
+display: flex;
+justify-content: space-between;
+margin-top: 5px;
+
+}
+.title p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 25px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+}
+.types p2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    
+
+    
+
+}
+
+
+.title p1{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+}
+ 
+.cost{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cost p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    margin-top: 15px;
+    color: #000000;
+}
+.price{
+    
+        display: flex;
+        justify-content: space-between;
+    
+}
+.price p{
+    width: 72px;
+height: 16px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+margin-top: 15px;
+text-align: center;
+
+color: #000000;
+
+ }
+ .shipping{
+    display: flex;
+    justify-content: space-between;
+}
+
+ .shipping p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 15px;
+    text-align: center;
+    
+    color: #000000;
+ 
+}
+
+.stock{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stock p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    
+    color: #000000;
+ }
+ @media (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+
+     }
+
