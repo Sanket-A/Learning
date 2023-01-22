@@ -2,16 +2,27 @@ import React from "react";
 import "./searchproduct.css";
 import Sidebar from "../Sidebar/Sidebar";
 import { FaBars } from "react-icons/fa";
+import { useState } from "react";
 
 const Searchproduct = () => {
+  const [show, setShow] = useState(false);
+
+  const ShowSidebar = () => {
+    if (show == true) {
+      setShow(false);
+    } else {
+      setShow(true);
+    }
+  };
+
   return (
     <>
-      <div className="navb">
-        <button type="button">
-          <FaBars />
+      {/* <div className="btn">
+        <button onClick={ShowSidebar}>
+          <FaBars></FaBars>
+          {show && <Sidebar />}
         </button>
-      </div>
-      <Sidebar />
+      </div> */}
       <div className="nav"></div>
 
       <div className="box">

@@ -9,13 +9,16 @@ const Sidebar = () => {
           <header>K GOOD</header>
           <ul>
             <li>
-              <a href="#">Dashboard</a>
+              <button type="button">
+                {" "}
+                <a href="/dashboard">Dashboard</a>
+              </button>
             </li>
             <li>
               <a href="#">Search Product</a>
             </li>
             <li>
-              <a href="#">Imports</a>
+              <a href="/imports">Imports</a>
             </li>
             <li>
               <a href="#">Orders</a>
