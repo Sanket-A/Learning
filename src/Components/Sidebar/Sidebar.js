@@ -9,10 +9,7 @@ const Sidebar = () => {
           <header>K GOOD</header>
           <ul>
             <li>
-              <button type="button">
-                {" "}
-                <a href="/dashboard">Dashboard</a>
-              </button>
+              <a href="/dashboard">Dashboard</a>
             </li>
             <li>
               <a href="#">Search Product</a>

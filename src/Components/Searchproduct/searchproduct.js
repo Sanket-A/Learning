@@ -8,7 +8,7 @@ const Searchproduct = () => {
   const [show, setShow] = useState(false);
 
   const ShowSidebar = () => {
-    if (show == true) {
+    if (show === true) {
       setShow(false);
     } else {
       setShow(true);
@@ -17,12 +17,12 @@ const Searchproduct = () => {
 
   return (
     <>
-      {/* <div className="btn">
+      <div className="btn">
         <button onClick={ShowSidebar}>
           <FaBars></FaBars>
           {show && <Sidebar />}
         </button>
-      </div> */}
+      </div>
       <div className="nav"></div>
 
       <div className="box">
